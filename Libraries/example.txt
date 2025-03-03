@@ -1,0 +1,2 @@
+This is a formatted output written to the file.
+X
