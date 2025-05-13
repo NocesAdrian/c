@@ -9,10 +9,11 @@ int main() {
 	
 	printf("How old are you? ");
 	
+	// scanf()
 	// Takes two things x, y
 	// x -> (format specifier, %d for decimal %s for string etc...)
 	// y -> address where to store the input
-	// use "&" to make it address to the variable
+	// use "&" to make it address to the value
 	// & -> address-of
 	// &age -> the address-of age
 	scanf("%d", &age);

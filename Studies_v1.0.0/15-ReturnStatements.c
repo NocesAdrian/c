@@ -12,7 +12,7 @@ double square(double x)
     // returns the result so sqauare() function now is equal to the result
     int result = x * x;
 
-    // by using return square() = result;
+    // by using return square() function = result;
     return result;
 }
 

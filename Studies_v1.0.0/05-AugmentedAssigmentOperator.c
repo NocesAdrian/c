@@ -3,8 +3,14 @@
 int main() {
 	// augmented assignment operators 
 	
-	// x = x+1;
-	//x+= 1;
+	int x = 1; 
+	x = x+1;
+	x += 1;
+
+	x = x - 1;
+	x -= 1;
+
+	printf("%d\n", x);
 	
 	return 0;
 }
