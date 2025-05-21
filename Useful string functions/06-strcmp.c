@@ -24,7 +24,8 @@ int main() {
         printf("%s > %s", string1, string2);
     } 
 
-    int res = strcmp(string1, string2);
+    int res = strcmp(string1, string2);         // compare all strings 
+    int res2 = strncmp(string1, string2, 1); // compare string to a given amount of characters 
     printf("\nResult: Cat(C = 67) - Dog(D = 68) -> 67 - 68 = %d -> not equal ", res);
 
     // boolean use strcmp() == 0
@@ -34,8 +35,8 @@ int main() {
     // A(65) - B(66) = -1 then its false
 
     if (strcmp(string3, string4) == 0) {
-        printf("\ntrue");
+        printf("\nthe strings are the same");
     } else {
-        printf("\nfalse");
+        printf("\nthe strings are not the same");
     }
 }
