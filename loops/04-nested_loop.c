@@ -2,6 +2,8 @@
 
 int main() {
 
+    // nested loop = loop inside another loop
+
     int rows;
     int columns;
     char sysmbol;
