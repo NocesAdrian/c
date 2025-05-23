@@ -1,0 +1,10 @@
+structure or sysntax
+
+float array[] = {};
+double array[] = {};
+int array[] = {}
+
+char name[] = "hi";
+or 
+char name[] = {'h', 'i', '\0'}
+but the first one is prefered
