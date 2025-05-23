@@ -9,7 +9,7 @@ int main() {
     char string2[] = "MyDog";
 
     // copy the value of string1 to string2 now string2 = "MyCat"
-    // output: "MyCat"
+    // output: "MyCat"      // complete overwrite
     strcpy(string2, string1);
     printf("%s\n", string2);
 

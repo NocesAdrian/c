@@ -1,0 +1,31 @@
+char hi[] = "hello"
+means:
+char hi[] = {'h', 'e', 'l', 'l', 'o', '\0'}     // theres always a null terminator('\0') at the end 
+
+
+
+you cant:
+char h = "h"
+you can:
+char h = 'h'
+means:
+char h = 'h' // or computer see it like int ascii value decimal 104(h)
+
+you cant:
+char h[5] = "h"
+you can:
+char h[5] = 'h'
+means:
+char h[] = {0, 1, 2, 3, 4, 'h', '\0'}
+
+you cant:
+char h[] = 'h'
+you can:
+charr h[] = "h"
+means:
+char h[] = {'h', '\0'}
+
+"h" is pointing to first element of an array
+array = ['h', '\0']
+
+'h' is just a character ascii value(104)

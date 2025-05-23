@@ -1,0 +1,15 @@
+char h[10];
+fgets(h, 10, stdin)
+
+for example you type "hello" then pressed "enter" the array will be
+
+char h[] = {'h', 'e', 'l', 'l', 'o', '\n', '\0'}    // boom newline '\n' in the array
+
+so do this
+
+h[strlen(h) - 1] = '\0';
+
+this will remove '\0'
+char h[] = {'h', 'e', 'l', 'l', 'o', '\n'}
+then replace '\n' to '\0'
+char h[] = {'h', 'e', 'l', 'l', 'o', '\0'}
