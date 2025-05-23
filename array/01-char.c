@@ -7,4 +7,6 @@ int main() {
     // or
     char greeting[] = "hi"; // "" is a pointer to the first element in the array
     printf("%s", greeting);
+
+    return 0;
 }

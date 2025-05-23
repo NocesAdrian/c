@@ -18,4 +18,5 @@ int main() {
     printf("\n%.2lf", prices[1]);
     printf("\n%.2lf", prices[2]);
 
+    return 0;
 }
