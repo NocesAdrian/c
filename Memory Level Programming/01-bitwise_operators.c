@@ -27,4 +27,6 @@ int main() {
 
     z = y >> 1;     // 00000110 bit > 6
     printf("y >> 1 = %d\n", z);
+
+    return 0;
 }
