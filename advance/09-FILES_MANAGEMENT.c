@@ -18,6 +18,7 @@ int file_write(char filename[], char msg[]) {
     } else {
         printf("\nFile <%s> opened successfully.\n", filename);
         fprintf(write_ptr, "%s", msg);
+        
         fprintf(stdout, "writing... \"%s\"", msg);
         fprintf(stdout, "\n[FINISHED]\n");
         fclose(write_ptr);  // Don't forget to close!
@@ -125,7 +126,7 @@ int main() {
     
     file_write("test.txt", "hello\n");
     
-    file_append("test.txt", "Im mf stronks\n");
+    file_append("test.txt", "Im mf stronks");
     
     file_read("test.txt");
     

@@ -1,0 +1,12 @@
+A. Seoul
+B. Tokyo
+C. Beijing
+D. Kyoto
+A. Newton
+B. Tesla
+C. Einstein
+D. Bohr
+A. 101
+B. 110
+C. 100
+D. 111
