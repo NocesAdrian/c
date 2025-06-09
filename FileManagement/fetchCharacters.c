@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 // max characters to store
-#define max_char_store 1000
+size_t max_char_store = 1000;
 
 // function proto for printing array of characters
 int printc(const char *);
@@ -50,7 +50,6 @@ int fetch_char(const char *filename, char *charArray) {
     }
 
     // add NULL at the end of array
-
     charArray[count] = '\0';  // Null-terminate the string
     
     //close the file
